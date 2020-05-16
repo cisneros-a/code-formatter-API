@@ -7,6 +7,7 @@ const pretty = {
   initialize: async () => {
     pretty.browser = await puppeteer.launch({
       headless: true,
+      args: ["--no-sandbox"],
     });
 
     pretty.page = await pretty.browser.newPage();
