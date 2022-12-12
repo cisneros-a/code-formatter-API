@@ -19,7 +19,7 @@
   "homepage": "https://github.com/cisneros-a/code-formatter-API#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "puppeteer": "^3.0.4"
   }
 }
